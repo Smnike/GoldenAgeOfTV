@@ -29,13 +29,13 @@ var flashcards = [
 
 // The user is expected to input the answer to questions 1-8, one at a time. Upon clicking the 'submit' button, the users response will be recorded and if it is correct, they will be told to move on to the next card/question. 
 // If incorrect, the user will be informed of the wrong-ness and told to try again.
-// contribution from Maike
+// Contribution from Maike
 // Once the user answers correctly, the 'submit' button is disabled so no more or new information can be added at that point.
 // Whether the answer is right or wrong, an alert will pop up with the determination.
 var question1Answer = "Big Bang Theory"
 var card1StartButton = document.querySelectorAll('button')[0]
 card1StartButton.addEventListener('click', function () {
-    
+
     let answer = document.querySelector('#answer-compilation').value
         console.log(answer)
     if (answer === "Big Bang Theory" || "big bang theory") {
@@ -47,6 +47,7 @@ card1StartButton.addEventListener('click', function () {
         alert("Wrong! Try again! Think rocket scientists....")
     }
     })
+   
 
 var question2Answer = "Netflix"
 var card2Button = document.querySelectorAll('button')[1]

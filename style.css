@@ -5,9 +5,9 @@ h1 {
     font-family: "Jazz LET", fantasy;
     font-weight: bolder;
     text-shadow: 4px 4px 0px rgb(0, 0, 0);
-    font-size: 58px;
+    font-size: 68px;
     font-style: italic;
-    font-variant: small-caps;
+    /* font-variant: small-caps; */
     margin: 5px 0 5px 0;
 }
 
@@ -98,6 +98,26 @@ input {
 
 #answer-iron {
     margin: 2px 0 0 0;
+}
+
+#one {
+    margin: 7px 0 0 0;
+}
+
+#two {
+    margin: 3px 0 0 0;
+}
+
+#four {
+    margin: 2px 0 0 0;
+}
+
+#seven {
+    margin: 6px 0 0 0;
+}
+
+#eight {
+    margin: 3px 0 0 0;
 }
 
 /* Contribution from button generator https://www.bestcssbuttongenerator.com/*/
