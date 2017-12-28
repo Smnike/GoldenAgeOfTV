@@ -9,4 +9,11 @@ Technology Used - JavaScript
 
 JavaScript was used to activate both the input fields where users insert their typed answers, as well as the submit button that enters their answer into the system. After submit has been clicked, it is determined whether the user entered the correct answer according to the answer list. If it is correct, then the user sees an alert, informing them that they have answered right and should move on to the next card. After this, the user is no longer able to submit an answer into the system as it has disabled the 'submit' button. If the user answers the question incorrectly based on the answer key, then the alert will let them know that they have gotten it wrong and should try again.
 
+Things to improve:
+- Let the input accept both capital and lowercase letters
+- Let the player push 'enter/return' key to activate the submit button
+- Change Alert pop-ups to HTML, styled pop ups
+- Vastly improve title style
+- Have card turn into an image when the question has been correctly answered
+-
 
